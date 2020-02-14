@@ -26,7 +26,6 @@ function setUpWebSocket() {
           // No stable build!
           location.reload(true);
         }
-
       }
     } catch (exn) {
       console.error("The watcher tried to connect to web socket, but failed. Here's the message:");

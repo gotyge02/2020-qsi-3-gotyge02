@@ -11,4 +11,7 @@ module.exports = {
     path: path.join(__dirname, "bundleOutput"),
     filename: 'index.js',
   },
+  plugins: [
+    new Dotenv()
+  ]
 };
